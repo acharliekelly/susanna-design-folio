@@ -6,48 +6,60 @@
     <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
   </head>
   <body>
-    <header>
-      <span id="designer-name" class="dark-text">Susanna Lamey</span>
-      <span class="header-split">
-        <span class="light-text">|</span>
-        <span class="dark-text">|</span>
-      </span>
-      <span id="header-animation" class="light-text">Graphic Design</span>
-    </header>
-    <main>
-      <div class="display-area">
-        <div class="image-display">
-          <img src="images/full/alien.jpg" alt="Alien">
+    <div class="content">
+      <header>
+        <span id="designer-name" class="dark-text">Susanna Lamey</span>
+        <span class="header-split">
+          <span class="light-text">|</span>
+          <span class="dark-text">|</span>
+        </span>
+        <span id="header-animation" class="light-text">Graphic Design</span>
+      </header>
+      <main>
+        <div class="display-area">
+          <div class="image-display">
+            <img src="images/full/alien.jpg" alt="Alien">
+          </div>
+          <div class="sub-menu">
+
+          </div>
+          <div class="text-display">
+            <span class="item-title">Alien</span>
+            <span class="item-description">an alien</span>
+          </div>
         </div>
-        <div class="text-display">
-          <span class="item-title">Alien</span>
-          <span class="item-description">an alien</span>
+        <div class="thumbnails">
+          <img src="images/thumbs/alienthumb.jpg" title="Alien" class="active" data-full="alien.jpg">
+          <img src="images/thumbs/anarchistthumb.jpg" title="Anarchist" data-full="anarchist.jpg">
+          <img src="images/thumbs/bouticathumb.jpg" title="Boutica" data-full="boutica.jpg">
+          <img src="images/thumbs/CANCOver_thumb.jpg" title="CAN Cover" data-full="CANCover.jpg">
+          <img src="images/thumbs/destinations_spread_thumb.jpg" title="Destinations Spread" data-full="destinations_spread.jpg">
+          <img src="images/thumbs/dinosaurthumb.jpg" title="Dinosaur" data-full="dinosaur.jpg">
+          <img src="images/thumbs/homepagethumb.jpg" title="Home Page" data-full="homepagegraphic.jpg">
+          <img src="images/thumbs/introspread_thumb.jpg" title="Intro" data-full="introspread.jpg">
+          <img src="images/thumbs/ITCcloseupgraphicthumb.jpg" title="ITC Closeup" data-full="ITCcloseupgraphic.jpg">
+
         </div>
-      </div>
-      <div class="thumbnails">
-        <img src="images/thumbs/alienthumb.jpg" title="Alien" class="active" data-full="alien.jpg">
-        <img src="images/thumbs/anarchistthumb.jpg" title="Anarchist" data-full="anarchist.jpg">
-        <img src="images/thumbs/bouticathumb.jpg" title="Boutica" data-full="boutica.jpg">
-        <img src="images/thumbs/CANCOver_thumb.jpg" title="CAN Cover" data-full="CANCover.jpg">
-      </div>
-    </main>
-    <footer>
-      <ul>
-        <li>5 winchester st apt 303, brookline, ma 02446</li>
-        <li>617-555-1212</li>
-        <li>slamey@bu.edu</li>
-        <li>
-          <a href="#" title="TODO: insert resume link">check out my resume</a>
-        </li>
-      </ul>
-    </footer>
+      </main>
+      <footer>
+        <ul>
+          <li>5 winchester st apt 303, brookline, ma 02446</li>
+          <li>617-555-1212</li>
+          <li>slamey@bu.edu</li>
+          <li>
+            <a href="#" title="TODO: insert resume link">check out my resume</a>
+          </li>
+        </ul>
+      </footer>
+    </content>
   </body>
   <script>
     $(".thumbnails img").click(function(e){
       $(".thumbnails img").removeClass("active");
       e.target.classList.add('active');
-      var disp = "images/full/" + e.target.attr('data-full');
-      var txt = e.target.attr('title');
+      var img = e.target;
+      var disp = "images/full/" + $(img).attr('data-full');
+      var txt = $(img).attr('title');
       $("main .display-area .image-display img").attr('src', disp).attr('alt', txt);
       $("main .display-area .text-display .item-title").text(txt);
     });
