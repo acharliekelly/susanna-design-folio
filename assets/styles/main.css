@@ -1,6 +1,23 @@
 body {
   text-transform: lowercase;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  
+}
+html, body {
+  height: 100%;
+}
 
+.content {
+  background-color: white;
+  margin: 0 10%;
+  height: 100%;
+  padding: 5%;
+}
+
+header {
+  font-size: xx-large;
+  padding: 1em;
 }
 
 .dark-text {
@@ -14,46 +31,64 @@ body {
   padding: 0 2rem;
 } 
 
+main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "display thumbnails"
+    "sub-menu thumbnails"
+    "title thumbnails";
+  height: 80%;
+}
+
 .display-area {
-  float: left;
-  width: 60%;
+  grid-area: display;
+  
 }
 .display-area .image-display {
-  width: 100%;
+  min-height: 200px;
 }
 .display-area .text-display {
-  width: 100%;
   text-align: center;
   font-size: large;
+  padding-left: 2em;
 }
 .display-area .item-description {
   display: none;
 }
 .thumbnails {
-  float: right;
   display: flex;
+  flex-wrap: wrap;
 }
 .thumbnails img {
-  margin: 2em;
+  margin: 1em;
   border: thin solid white;
+  width: 65px;
+  height: 65px;
+  cursor: pointer;
 }
 .thumbnails img.active {
   border: thin solid #111;
+  cursor: default;
 }
 
 footer {
   width: 100%;
   background-color: #aaa;
   color: #fff;
+  text-align: center;
+  padding: 0.5em 0;
 }
 
 footer li {
   display: inline;
-  list-style-type: none;
+  list-style: none;
   padding: 0 1em;
 }
 footer li::before {
-  content: '||';
+  content: '||     ';
 }
 footer li:first-child::before {
   content: none;
@@ -61,4 +96,5 @@ footer li:first-child::before {
 
 footer a {
   text-decoration: none;
+  color: white;
 }
