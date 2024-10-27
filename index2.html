@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Susanna Lamey Graphic Design Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/styles/main.css"> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+  </head>
+  <body>
+      <main>
+        <div class="container">
+          <div class="row">
+            <div class="column">
+              <img class="display-area" src="images/full/dinosaur.jpg" alt="Dinosaur">
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <span class="display-text">Dinosaur</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <div class="container sub-menu">
+                <div class="row">
+                  <div class="column">
+                    <img class="thumbnail" src="images/thumbs/dinosaurthumb.jpg" data-spread="mugs" data-full="dinosaur.jpg">
+                  </div>
+                  <div class="column">
+                    <img class="thumbnail" src="images/thumbs/alienthumb.jpg" data-spread="mugs" data-full="alien.jpg">
+                  </div>
+                  <div class="column">
+                    <img class="thumbnail" src="images/thumbs/anarchistthumb.jpg" data-spread="mugs" data-full="anarchist.jpg">
+                  </div>
+                  <div class="column">
+                    <img class="thumbnail" src="images/thumbs/wizardthumb.jpg" data-spread="mugs" data-full="wizard.jpg">
+                  </div>
+                  <div class="column">
+                    <img class="thumbnail" src="images/thumbs/octopusthumb.jpg" data-spread="mugs" data-full="octopus.jpg">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="thumbnails">
+          <img src="images/thumbs/dinosaurthumb.jpg" title="Mugs" data-spread="mugs" data-full="dinosaur.jpg">
+          <img src="images/thumbs/destinations_spread_thumb.jpg" title="Destinations Spread" data-full="destinations_spread.jpg">
+          <img src="images/thumbs/homepagethumb.jpg" title="Home Page" data-full="homepagegraphic.jpg">
+          <img src="images/thumbs/introspread_thumb.jpg" title="Intro" data-full="introspread.jpg">
+          <img src="images/thumbs/ITCcloseupgraphicthumb.jpg" title="ITC Closeup" data-full="ITCcloseupgraphic.jpg">
+
+        </div>
+      </main>
+  </body>
+  <script>
+    $(".thumbnails img").click(function(e){
+      $(".thumbnails img").removeClass("active");
+      e.target.classList.add('active');
+      var img = e.target;
+      
+      var disp = "images/full/" + $(img).attr('data-full');
+      var txt = $(img).attr('title');
+      if ($(img).attr('data-spread')) {
+        $(".sub-menu").show()
+        $(".sub-menu .thumbnail").mouseover(function(e){
+          var sub = "images/full/" + $(img).attr('data-full');
+          var capt = $(img).attr('data-spread');
+          $("main img.display-area").attr('src', sub)
+          $("main .display-text").text(capt);
+        })
+    
+      } else {
+        $(".sub-menu").hide()
+      }
+      $("main img.display-area").attr('src', disp).attr('alt', txt);
+      $("main .display-text").text(txt);
+    });
+  </script>
+</html>
