@@ -4,7 +4,7 @@ vendor.js
 specs.js
 application.js
 
-node_modules
+/node_modules
 
 *.svg
 *.ttf
