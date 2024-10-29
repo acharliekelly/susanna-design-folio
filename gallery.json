@@ -1,0 +1,355 @@
+[
+  {
+    "name": "mies",
+    "thumbnail": "mies_thumb.jpg",
+    "full": "mies_full.jpg",
+    "title": "Mies at the MoCA",
+    "description": "A poster advertising an exhibition of the work of Ludwig Mies van der Rohe at the Museum of Contemporary Art in Los Angeles",
+    "completed": "Completed as part of a poster series exercise at BU in 2006"
+  },
+  {
+    "name": "bucnn",
+    "thumbnail": "bucnn_thumb.jpg",
+    "full": "bucnn.jpg",
+    "title": "Boston University CNN Brochure",
+    "description": "Cover for information brochure about the Boston Univeristy Center for Nanoscience and Nanobiotechnology",
+    "completed": "Distributed at a nanoscience conference hosted by BU in April 2008"
+  },
+  {
+    "name": "epson",
+    "thumbnail": "epson_thumb.jpg",
+    "full": "epson.jpg",
+    "title": "Epson paper packaging redesign",
+    "description": "Part of a series of redesigned packaging products for the Epson paper company",
+    "completed": "Compeleted as an exercise in packaging design at Boston University in 2006"
+  },
+  {
+    "name": "brassring",
+    "thumbnail": "brassring1_thumb.jpg",
+    "full": "brassring1.jpg",
+    "title": "BrassRing URC website",
+    "description": "A redesign of an online user information and support center for BrassRing, a Waltham-based human resources training company. Bought by the company along with three print ads (see thumbnails).",
+    "completed": "Completed in 2005 during a design internship at BrassRing; winner of their redesign competition",
+    "sub-menu": {
+      "orientation": "horizontal",
+      "position": "bottom",
+      "imagelist": [
+        {
+          "thumbnail": "brassring2_th.jpg",
+          "full": "brassring2.jpg"
+        },
+        {
+          "thumbnail": "brassring3_th.jpg",
+          "full": "brassring3.jpg"
+        },{
+          "thumbnail": "brassring4_th.jpg",
+          "full": "brassring4.jpg"
+        }
+      ] 
+    } 
+  },
+  {
+    "name": "btc",
+    "thumbnail": "btc_th.jpg",
+    "full": "btc.jpg",
+    "title": "Boston Theater Company logo",
+    "description": "A logo redesign for the Boston Theater Company, a local organization specializing in creative, modern Shakespearean productions. Also see posters for BTC productions of MacBeth and Othello."
+  },
+  {
+    "name": "monster",
+    "thumbnail": "monster_th.jpg",
+    "full": "monster.jpg",
+    "title": "The Monster and Me",
+    "description": "Cover illustration and design for a collection of children's stories by Erin Aults",
+    "completed": "Published in chapbook form at Susquehana University in May 2000"
+  },
+  {
+    "name": "archaeology",
+    "thumbnail": "archaeology_th.jpg",
+    "full": "archaeology.jpg",
+    "title": "Archaeology",
+    "description": "A cover design for my master's thesis in creative writing, a collection of poetry",
+    "completed": "Published by BU in May 2003"
+  },
+  {
+    "name": "extinct",
+    "thumbnail": "extinct_th.jpg",
+    "full": "extinct.jpg",
+    "title": "extinct",
+    "description": "One of a series of concept pieces created during a study of the theme of absence and negative space",
+    "completed": "Completed at BU in 2006"
+  },
+  {
+    "name": "badash",
+    "thumbnail": "badhash_th.jpg",
+    "full": "badash.jpg",
+    "title": "Bad Ash",
+    "description": "Poster for a band gig in a local pub",
+    "completed": "August 2007"
+  },
+  {
+    "name": "doriangray",
+    "thumbnail": "doriangray_th.jpg",
+    "full": "doriangray.jpg",
+    "title": "The Picture of Dorian Gray",
+    "description": "Book cover redesign for the classic novel by Oscar Wilde. The story involves a young man who sells his soul for beauty, descending into an ugly life of corruption, drugs, and murder while his physical appearance remains handsome and perfect",
+    "completed": "Completed as part of a project at BU in 2007" 
+  },
+  {
+    "name": "astronomy",
+    "thumbnail": "astronomy_th.jpg",
+    "full": "astronomy.jpg",
+    "title": "Astronomy Unplugged",
+    "description": "A poster advertising and annual concert organized by the BU Astronomy department and featuring Blues, Jazz, Folk, and Rock performances by department members. (I sang with Secret Aries, a small folk group. We rocked.)"
+  },
+  {
+    "name": "emmrem",
+    "thumbnail": "emmrem_th.jpg",
+    "full": "emmrem.jpg",
+    "title": "EMMREM Logo",
+    "description": "Logo redesign for the Earth-Moon-Mars Radiation Exposure Module, a NASA-funded mission to measure radiation levels in the Earth-Moon-Mars interplanetary environment in order to increase the safety of astronauts",
+    "completed": "Completed in 2004"
+  },
+  {
+    "name": "bodyrejuvenations",
+    "thumbnail": "bodyrejuvenations_th.jpg",
+    "full": "bodyrejuvenations.jpg",
+    "title": "Body Rejuvenations website",
+    "description": "Website design for a Boston-area aesthetic and laser clinic",
+    "completed": "Completed November 2007"
+  },
+  {
+    "name": "upclose",
+    "thumbnail": "upclose_th.jpg",
+    "full": "upclose.jpg",
+    "title": "Up Close and Personal",
+    "description": "A photographic essay exploring the hidden beauty of everyday things. The cover shows a closeup of my own eye (if you look real close, you can see my soul!). Thumbnails from left to right show the cover page, a hair varrette, liquid soap, a bottle of shampoo, nail clippers, a hairbrush, and a tube of lip gloss",
+    "completed": "Self-published as a personal book in Spring 2006",
+    "sub-menu": {
+      "orientation": "horizontal",
+      "position": "bottom",
+      "imagelist": [
+        {
+          "thumbnail": "upclose2_th.jpg",
+          "full": "upclose2.jpg"
+        },
+        {
+          "thumbnail": "upclose3_th.jpg",
+          "full": "upclose3.jpg"
+        },
+        {
+          "thumbnail": "upclose4_th.jpg",
+          "full": "upclose4.jpg"
+        },
+        {
+          "thumbnail": "upclose5_th.jpg",
+          "full": "upclose5.jpg"
+        },
+        {
+          "thumbnail": "upclose6_th.jpg",
+          "full": "upclose6.jpg"
+        },
+        {
+          "thumbnail": "upclose7_th.jpg",
+          "full": "upclose7.jpg"
+        },
+        {
+          "thumbnail": "upclose8_th.jpg",
+          "full": "upclose8.jpg"
+        }
+      ] 
+    }
+  },
+  {
+    "name": "strongbody",
+    "thumbnail": "strongbody_th.jpg",
+    "full": "strongbody.jpg",
+    "title": "Strong Body, Strong Will",
+    "description": "A series of t-shirt designs for the Boston University Fitness and Recreation Center",
+    "completed": "Completed in 2006",
+    "sub-menu": {
+      "orientation": "vertical",
+      "position": "left",
+      "imagelist": [
+        {
+          "thumbnail": "strongbody2_th.jpg",
+          "full": "strongbody2.jpg"
+        },
+        {
+          "thumbnail": "strongbody3_th.jpg",
+          "full": "strongbody3.jpg"
+        },
+        {
+          "thumbnail": "strongbody4_th.jpg",
+          "full": "strongbody4.jpg"
+        },
+        {
+          "thumbnail": "strongbody5_th.jpg",
+          "full": "strongbody5.jpg"
+        },
+        {
+          "thumbnail": "strongbody6_th.jpg",
+          "full": "strongbody6.jpg"
+        },
+        {
+          "thumbnail": "strongbody7_th.jpg",
+          "full": "strongbody7.jpg"
+        },
+        {
+          "thumbnail": "strongbody8_th.jpg",
+          "full": "strongbody8.jpg"
+        },
+        {
+          "thumbnail": "strongbody9_th.jpg",
+          "full": "strongbody9.jpg"
+        }
+      ] 
+    }
+  },
+  {
+    "name": "emotion",
+    "thumbnail": "emotion_th.jpg",
+    "full": "emotion.jpg",
+    "title": "e-motion logo",
+    "description": "Logo for e-motion, an ergonomic office furniture company that specializes in vertically adjustable desks and work surfaces",
+    "completed": "Completed as an exercise in corporate design at BU in 2005"
+  },
+  {
+    "name": "migrate",
+    "thumbnail": "migrate_th.jpg",
+    "full": "migrate.jpg",
+    "title": "Migrate",
+    "description": "A series of concept pieces on disappearance and the absence of the subject, explored through the vehicle of bird migration",
+    "completed": "Completed in Spring 2006",
+    "sub-menu": {
+      "orientation": "horizontal",
+      "position": "bottom",
+      "imagelist": [
+        {
+          "thumbnail": "migrate_th.jpg",
+          "full": "migrate.jpg"
+        },
+        {
+          "thumbnail": "migrate2_th.jpg",
+          "full": "migrate2.jpg"
+        },
+        {
+          "thumbnail": "migrate3_th.jpg",
+          "full": "migrate3.jpg"
+        }
+      ] 
+    } 
+  },
+  {
+    "name": "sushi",
+    "thumbnail": "sushi_th.jpg",
+    "full": "sushi.jpg",
+    "title": "Sushi Party Invitation",
+    "description": "Made for some friends of mine who were way too into sushi",
+    "completed": "August 2006",
+    "sub-menu": {
+      "orientation": "horizontal",
+      "position": "bottom",
+      "imagelist": [
+        {
+          "thumbnail": "sushi2_th.jpg",
+          "full": "sushi2.jpg"
+        }
+      ] 
+    } 
+  },
+  {
+    "name": "prostars",
+    "thumbnail": "prostars_th.jpg",
+    "full": "prostars.jpg",
+    "title": "Prostars Logo",
+    "description": "Logo design for a National Science Foundation grant, PROgrams in STem Academic Retention and Success, that aims to boost student participation in areas of science technology, engineering, and mathematics",
+    "completed": "Completed in February 2008"
+  },
+  {
+    "name": "mfathesis",
+    "thumbnail": "mfa-key_th.jpg",
+    "full": "mfa-key-text.jpg",
+    "title": "MFA Thesis Project",
+    "description": "A series of photographs and posters designed to build awareness of homelessness and promote the boston rescue mission, intended for public transportation venues. My goal was to combat the everyday commuter's feeling of detachment towards social issues and bring the very real problem of homelessness into personal focus",
+    "completed": "Part of an installation exhibited at BU in Spring 2007",
+    "sub-menu": {
+      "orientation": "vertical",
+      "position": "left",
+      "imagelist": [
+        {
+          "thumbnail": "mfa-key-text_th.jpg",
+          "full": "mfa-key-text.jpg"
+        },
+        {
+          "thumbnail": "mfa-key_th.jpg",
+          "full": "mfa-key.jpg"
+        },
+        {
+          "thumbnail": "mfa-rain-text_th.jpg",
+          "full": "mfa-rain-text.jpg"
+        },
+        {
+          "thumbnail": "mfa-rain_th.jpg",
+          "full": "mfa-rain.jpg"
+        },
+        {
+          "thumbnail": "mfa-daughter-text_th.jpg",
+          "full": "mfa-daughter-text.jpg"
+        },
+        {
+          "thumbnail": "mfa-daughter_th.jpg",
+          "full": "mfa-daughter.jpg"
+        },
+        {
+          "thumbnail": "mfa-ten-text_th.jpg",
+          "full": "mfa-ten-text.jpg"
+        },
+        {
+          "thumbnail": "mfa-winter_th.jpg",
+          "full": "mfa-winter.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "name": "macbeth",
+    "thumbnail": "macbeth_th.jpg",
+    "full": "macbeth.jpg",
+    "title": "MacBeth",
+    "description": "Poster for a Boston Theatre Company production of MacBeth",
+    "completed": "Completed as part of a BU project in 2005"
+  },
+  {
+    "name": "othello",
+    "thumbnail": "othello_th.jpg",
+    "full": "othello.jpg",
+    "title": "Othello",
+    "description": "Poster for a Boston Theatre Company production of Othello",
+    "completed": "Completed as part of a BU project in Fall 2005"
+  },
+  {
+    "name": "skypoems",
+    "thumbnail": "skypoems_th.jpg",
+    "full": "skypoems.jpg",
+    "title": "Sky Poems",
+    "description": "Book cover design for a collection of poetry by Sarah Farbo",
+    "completed": "Published in chapbook form at Susquhanna University in May 2000"
+  },
+  {
+    "name": "wwii",
+    "thumbnail": "wwii_th.jpg",
+    "full": "scrapbook.jpg",
+    "title": "WWII Virtual Scrapbook",
+    "description": "An interactive site in the form of a flippable scrapbook full of photos, letters, and diary entries from the WWII era",
+    "completed": "Completed in May 2008"
+  },
+  {
+    "name": "firstwords",
+    "thumbnail": "firstwords_th.jpg",
+    "full": "firstwords.jpg",
+    "title": "First Words",
+    "description": "Cover design for a student literary magazine at the Ohio State University",
+    "completed": "Completed Spring 2002"
+  }
+]
